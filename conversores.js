@@ -4,7 +4,6 @@
 
 //conversão implícita
 
-
 //conversão explícita
 
 //Number()
