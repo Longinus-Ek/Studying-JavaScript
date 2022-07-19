@@ -39,12 +39,13 @@ const salasUnificadas = [sala3.concat(sala4)]
 
 console.log(salasUnificadas)
 
-//Arrays com duas dimensões
+//Arrays com duas dimensões (Basta criar uma lista com listas dentro)
 
-const lista1 = ['Erick ', 'Ana ', 'Itala ', 'João ']
-const lista2 = [10, 9, 10, 5]
+const lista1 = ['Erick ', 'Ana ', 'Itala ', 'João '] //Lista 1D
+const lista2 = [10, 9, 10, 5] // Lista 1D
 
-let lista1e2 = [lista1, lista2]
+let lista1e2 = [lista1, lista2] //Lista 2D
 
+//Para acessar os elementos da lista de 2 dimensões basta inserir mais um colchetes
 console.log(`O aluno ${lista1e2[0][0]}tem média ${lista1e2[1][0]}`)
 

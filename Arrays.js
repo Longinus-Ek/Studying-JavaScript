@@ -16,14 +16,14 @@ let listanotas = notas;
 let i = 0;
 let soma = 0;
 while(i < listanotas.length){
-    soma = soma + listanotas[i];
+    soma += listanotas[i];
     i++;
 }
 return soma/listanotas.length
 }
 
 // console.log(soma/notas.length)
-console.log(calculamedia([10, 6, 4 , 7 ,8]) + '\n')
+console.log('Sua média é:', calculamedia([10, 6, 4 , 7 ,8]) + '\n')
 
 //Adicionando Elementos em uma Array (Comando Push)
 notas = [10, 6, 4 , 3 ,8]
