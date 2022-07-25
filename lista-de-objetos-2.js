@@ -1,4 +1,4 @@
-const edFolha = [
+const listaLivros = [
   {
   titulo: "PHP",
   preco: 15
@@ -18,10 +18,7 @@ const edFolha = [
   {
     titulo: "Elixir",
     preco: 50
-  }
-]
-
-const edGalho = [
+  },
   {
     titulo: "Python",
     preco: 20
@@ -48,4 +45,4 @@ const edGalho = [
   }
 ]
 
-module.exports = { edFolha, edGalho }
+module.exports = listaLivros
